@@ -9,12 +9,13 @@ This software requires a list of datasets for which we have the output files pro
 The output files required from Clus-HMC should be named as:
 
 Validation: 
-<nameData>.test.pred.arff.val
-<nameData>.out.val
+\<nameData\>.test.pred.arff.val
+
+\<nameData\>.out.val
 
 Test:
-<nameData>.test.pred.arff.test
-<nameData>.out.test
+\<nameData\>.test.pred.arff.test
+\<nameData\>.out.test
 
 Please modify main.java to indicate the list of datasets you are going to process (Line 45:  String datas[]={"....","...."}.
 
@@ -28,7 +29,7 @@ Using these files, the main program applies all the optimisation strategies prop
  
 As a result, the program will output a file per dataset, measure and phase (validation or test).
 
-<nameData>-<measure>-<phase>.txt
+\<nameData\>-\<measure\>-\<phase\>.txt
 
 In addition it will also provide a runtime comparison and a percentage of non labeled examples (see Section 4.2.2 of the paper for details). 
 
