@@ -46,7 +46,7 @@ public class main // extends PrototypeGenerationAlgorithm
 										 // new data:   "reuters", "diatoms", "wipo"   ", "", "reuters", "struc_ara_GO
 			datasets=datas;
 			
-			path="src/InputFiles/";
+			path="InputFiles/";
 			
 		}else{ // to run on the cluster.
 			datasets = args;
