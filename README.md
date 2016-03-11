@@ -28,5 +28,11 @@ As a result, the program will output a file per dataset, measure and phase (vali
 
 \<nameData\>-\<measure\>-\<phase\>.txt
 
+In each file, we find the results for each dataset in the following form (See Tables 3, 4 in the paper):
+
+Dataset name  |   Error Measure (STS) | Error Measure (MTS) |  Class Distribution (STS) | Class Distribution (MTS) | Label Cardinality (STS)
+
 In addition it will also provide a runtime comparison and a percentage of non labeled examples (see Section 4.2.2 of the paper for details). 
+
+
 
